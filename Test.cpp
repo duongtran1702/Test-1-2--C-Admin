@@ -60,7 +60,9 @@ int main(){
 					}
 				}
 			}
-			printf("\nKhong co so ngguyen to nao!");
+			if(index==0){
+				printf("\nKhong co so ngguyen to nao!");
+			}		    	
 			printf("\n");		
 		}
 		else if(choice==5){
